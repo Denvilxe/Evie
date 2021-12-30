@@ -1,7 +1,7 @@
 import subprocess
 from Luna import tbot
 from Luna.events import register, lunabot
-from Luna import OWNER_ID, SUDO_USERS, DEV_USERS, abot
+from Luna import OWNER_ID, SUDO_USERS, DEV_USERS
 import asyncio
 import traceback
 import io
