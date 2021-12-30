@@ -1,4 +1,4 @@
-from Luna import ubot, CMD_HELP, abot
+from Luna import ubot, CMD_HELP
 from Luna.events import bot as register
 import asyncio, os
 import datetime
@@ -65,7 +65,7 @@ async def alive(event):
                 reply += f"Time: {time}\n"
                 reply += f"Checked By **{fname}**"
           else:
-                reply = "Error, Report @LunaBotSupport"
+                reply = "Error, Report @Aniebotsupports"
           await k.edit(reply)        
 
 
